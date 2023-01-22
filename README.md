@@ -15,7 +15,7 @@ Maven project containing all required dependencies.
 
 #### <a name="1.2 Clone"></a> 1.2 Clone
 
-To get started you can simply clone this repository using git and checkout from release branch:
+To get started you can simply clone this repository using git and checkout from development branch:
 
 ```
 git clone https://github.com/dasunkanchana2/stock-service.git
@@ -140,7 +140,7 @@ docker logs -f <CONTAINER_ID>
 
 #### 1.6 Deployment
 Deployment works through docker compose and execute docker-compose.yml file placed application root directory
-
+(N/A in this release)
 ```
 docker-compose up -d
 ```
