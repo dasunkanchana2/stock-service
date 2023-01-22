@@ -117,7 +117,7 @@ docker network create springboot-mysql-net
 Run the MySQL container in the network and wait for few minutes
 
 ```
-docker run -it --name mysqldb --network=springboot-mysql-net -e MYSQL_ROOT_PASSWORD=1234 -e MYSQL_DATABASE=expensetracker -e MYSQL_USER=sys -e MYSQL_PASSWORD=1234 -d mysql:5.7
+docker run -it --name mysqldb --network=springboot-mysql-net -e MYSQL_ROOT_PASSWORD=1234 -e MYSQL_DATABASE=stock -e MYSQL_USER=sys -e MYSQL_PASSWORD=1234 -d mysql:5.7
 ```
 
 Run application docker image
